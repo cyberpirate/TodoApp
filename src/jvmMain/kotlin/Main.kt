@@ -32,7 +32,7 @@ fun main() = runBlocking {
                 runBlocking { dbJob.join() }
                 exitApplication()
             },
-            title = "TodoApp Lite",
+            title = "ToDo App",
             state = rememberWindowState(
                 width = 250.dp, height = 400.dp,
                 position = WindowPosition(alignment = Alignment.Center),
